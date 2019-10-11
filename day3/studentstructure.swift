@@ -11,4 +11,13 @@ import Foundation
 struct  student {
     var studentID: Int
     var studentname: String
+    mutating func setValues(){
+        
+        studentID = 1000
+        studentname = "student name here"
+        
+    }
+    func printData(){
+        print(studentID,studentname)
+    }
 }

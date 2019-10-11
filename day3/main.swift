@@ -11,7 +11,7 @@ import Foundation
 var a:Int? = nil
 var b = 100
 a = 10
-print(a)
+print(a!)
 print(b)
 if a == nil{
     print("a is nil")
@@ -20,3 +20,8 @@ else{
     let c = (a ?? 0) + b
 print(c)
 }
+
+var s1 = student(studentID: 1, studentname: "harpreet 1")
+s1.printData()
+var f1 = faculty()
+f1.printData()

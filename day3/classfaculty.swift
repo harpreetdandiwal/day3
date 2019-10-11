@@ -10,6 +10,15 @@ import Foundation
 class faculty
     
 {
-    //var facultyid: Int = 0
-    //var facultyname: String = ""
+    var facultyid: Int = 0
+    var facultyname: String = ""
+    func setValues()
+    {
+        self.facultyid = 100
+        self.facultyname = "dandiwal"
+    }
+    func printData()
+    {
+        print(facultyid,facultyname)
+    }
 }
