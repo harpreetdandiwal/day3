@@ -24,4 +24,12 @@ print(c)
 var s1 = student(studentID: 1, studentname: "harpreet 1")
 s1.printData()
 var f1 = faculty()
+f1.facultyID = 1
+f1.facultyFirstname = "harpreet"
+f1.facultyLastname = "dandiwal"
+f1.basicSalary = 445
+f1.bonus = 50
+f1.calculatesalary()
 f1.printData()
+
+
